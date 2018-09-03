@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- Base application theme. -->
+     Base application theme.
     <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -9,6 +9,16 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
+
+    <!--<style name="AppTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">-->
+
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">#3F51B5</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">#FF4081</item>-->
+        <!--<item name="android:fitsSystemWindows">false</item>-->
+    <!--</style>-->
+
     <style name="ToolBarTitleText" parent="TextAppearance.AppCompat.Medium">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:textSize">16sp</item>
